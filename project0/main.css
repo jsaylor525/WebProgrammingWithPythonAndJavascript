@@ -1,0 +1,21 @@
+.row > div {
+   padding: 20px;
+   background-color: teal;
+   border: 2px solid black;
+   font-weight: bold;
+   color: white;
+}
+
+.row > div > a:link,  a:visited {
+   color: white;
+}
+
+.row > div > a:hover, a:active {
+   color: red;
+   text-decoration: underline;
+}
+
+#profile_picture {
+   width: 50%;
+   height: 50%;
+}
