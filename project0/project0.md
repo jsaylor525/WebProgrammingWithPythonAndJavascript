@@ -46,14 +46,20 @@ Alright, now it’s time to make your website your own. Design a personal webpag
 * * id selector done.
 * * more than 5 properties, done
 * Your stylesheet(s) must include at least one mobile-responsive @media query, such that something about the styling changes for smaller screens.
+* * Nav bar changes when the screen gets small to stack in rows instead of columns.
 * You must use Bootstrap 4 on your website, taking advantage of at least one Bootstrap component, and using at least two Bootstrap columns for layout purposes using Bootstrap’s grid model.
 * * Using bootstrap container for nav bar, done
 * Your stylesheets must use at least one SCSS variable, at least one example of SCSS nesting, and at least one use of SCSS inheritance.
+* * Not really interested in doing this... might be useful later.
 * In README.md, include a short writeup describing your project, what’s contained in each file, and (optionally) any other additional information the staff should know about your project.
+* * This is the writeup...
 
 Note that not all of the above requirements are covered in Lecture 0, some will be introduced in Lecture 1.
 
 ## How to Submit
 ---
 Coming Soon
+
+## Writeup
+
 
