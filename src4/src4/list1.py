@@ -11,7 +11,7 @@ db.init_app(app)
 def main():
     flights = Flight.query.all()
     for flight in flights:
-        print(f"{flight.origin} to {flight.destination}, {flight.duration} minutes.")
+        print("{} to {}, {} minutes.".format( flight.origin, flight.destination, flight.duration ))
 
 if __name__ == "__main__":
     with app.app_context():

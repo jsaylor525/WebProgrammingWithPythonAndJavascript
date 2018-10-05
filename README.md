@@ -31,3 +31,14 @@ In windows powershell the input is not echoed... not sure how to fix this but it
 Update: Seems like this was only in VS Code terminal... Launching Powershell from Winodws Env character echo works fine.
 
 ---
+
+Seriousally fuck this class wasting so much time trying to figure out all this delta on Windows. No where did it say
+who to login to database with no password, which without that detail makes create.py worth dogshit. FUCK YOU!
+
+```bat
+REM These settings are required for create.py to work, the PG variables
+REM are needed in windows. If they don't exist we can't create the db via python
+SET DATABASE_URL=postgres://localhost/lecture4
+SET PGUSER=jsaylor
+SET PGPASSWORD=password
+````

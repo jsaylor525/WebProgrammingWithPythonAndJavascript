@@ -13,7 +13,7 @@ def main():
     for origin, destination, duration in reader:
         db.execute("INSERT INTO flights (origin, destination, duration) VALUES (:origin, :destination, :duration)",
                    {"origin": origin, "destination": destination, "duration": duration})
-        print(f"Added flight from {origin} to {destination} lasting {duration} minutes.")
+        print("Added flight from {} to {} lasting {} minutes.".format(origin, destination, duration))
     db.commit()
 
 if __name__ == "__main__":

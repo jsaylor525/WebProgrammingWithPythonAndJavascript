@@ -9,8 +9,10 @@ app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 db.init_app(app)
 
 def main():
-    print("DATABASE_URL = {}".format(os.getenv("DATABASE_URL")))
-    db.create_all()
+    flights = Flight.query.get(28)
+    if flights is not None:
+        for flight in flights:
+            print("{} to {}, {} minutes.".format( flight.origin, flight.destination, flight.duration ))
 
 if __name__ == "__main__":
     with app.app_context():
