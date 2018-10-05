@@ -32,8 +32,8 @@ Update: Seems like this was only in VS Code terminal... Launching Powershell fro
 
 ---
 
-Seriousally fuck this class wasting so much time trying to figure out all this delta on Windows. No where did it say
-who to login to database with no password, which without that detail makes create.py worth dogshit. FUCK YOU!
+Seriousally this class is wasting so much time trying to figure out all the deltas on Windows. No where did it say
+who to login to database with no password, which without that detail makes create.py is useless.
 
 ```bat
 REM These settings are required for create.py to work, the PG variables
