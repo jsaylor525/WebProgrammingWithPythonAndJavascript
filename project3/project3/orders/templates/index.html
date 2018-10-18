@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Menu
+{% endblock %}
+
+{% block body %}
+   <h1>Menu</h1>
+
+   <h2>Pizza Toppings</h2>
+   {% for topping in toppings %}
+      <li>
+        {{ topping.name }} - ${{ topping.price }}
+      </li>
+   {% endfor %}
+
+{% endblock %}
